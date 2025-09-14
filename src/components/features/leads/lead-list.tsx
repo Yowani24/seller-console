@@ -148,7 +148,7 @@ const LeadList = ({
         ) : (
           <>
             <div className="hidden md:block">
-              <div className="max-h-[600px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
+              <div className="max-h-[600px] overflow-y-auto scrollBarStyles">
                 <table className="w-full">
                   <thead className="bg-gradient-to-r from-purple-100 to-indigo-100 sticky top-0 z-10 border-b border-gray-200">
                     <tr>

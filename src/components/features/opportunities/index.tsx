@@ -81,12 +81,11 @@ const OpportunityList = ({ opportunities }: OpportunityListProps) => {
             <div className="mx-auto w-20 h-20 bg-gradient-to-br from-purple-100 to-indigo-100 rounded-full flex items-center justify-center mb-4">
               <Target className="w-8 h-8 text-purple-500" />
             </div>
-            <h3 className="text-lg font-medium text-gray-900 mb-2">
+            <h3 className="text-lg font-medium text-gray-600 mb-2">
               No opportunities yet
             </h3>
             <p className="text-sm text-gray-500 max-w-sm mx-auto">
-              Convert qualified leads into opportunities to start tracking your
-              sales pipeline.
+              Convert qualified leads into opportunities and track progress.
             </p>
           </div>
         ) : (
